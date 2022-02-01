@@ -7,8 +7,8 @@ button = document.querySelectorAll('input[type=checkbox]')
 // cant figure it out 
 
 for( let i = 2; i < button.length; i++){
-  button[i].checked = true;
-  
+  button[i].click()
 }
+
 
 
